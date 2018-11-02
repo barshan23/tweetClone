@@ -1,0 +1,25 @@
+{
+  "name": "tweet",
+  "version": "1.0.0",
+  "description": "tweeter",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha --timeout 10000 --exit"
+  },
+  "author": "Avishek Saha (barshan23@gmail.com)",
+  "license": "ISC",
+  "bugs": {},
+  "dependencies": {
+    "bcrypt": "^3.0.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.2.14",
+    "mongoose-unique-validator": "^2.0.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
